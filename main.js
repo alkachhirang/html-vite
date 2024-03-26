@@ -8,7 +8,7 @@ document.querySelector('#app').innerHTML = `
     <div slot="container-start" class="parallax-bg"
       style="background-image: url(https://swiperjs.com/demos/images/nature-1.jpg);" data-swiper-parallax="-23%"></div>
 
-    <swiper-slide class='d-flex justify-content-center align-items-center flex-column'>
+    <swiper-slide class='d-flex justify-content-center align-items-center flex-column min-vh-100'>
       <div class="title" data-swiper-parallax="-300">Slide 1</div>
       <div class="text" data-swiper-parallax="-100">
         <p class='text-center'>
@@ -22,7 +22,7 @@ document.querySelector('#app').innerHTML = `
         </p>
       </div>
     </swiper-slide>
-    <swiper-slide class='d-flex justify-content-center align-items-center flex-column'>
+    <swiper-slide class='d-flex justify-content-center align-items-center flex-column min-vh-100'>
       <div class="title" data-swiper-parallax="-300">Slide 2</div>
       <div class="text" data-swiper-parallax="-100">
         <p class='text-center'>
@@ -36,7 +36,7 @@ document.querySelector('#app').innerHTML = `
         </p>
       </div>
     </swiper-slide>
-    <swiper-slide class='d-flex justify-content-center align-items-center flex-column'>
+    <swiper-slide class='d-flex justify-content-center align-items-center flex-column min-vh-100'>
       <div class="title" data-swiper-parallax="-300">Slide 3</div>
       <div class="text" data-swiper-parallax="-100">
         <p class='text-center'>
